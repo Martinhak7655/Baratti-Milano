@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Italianno', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #162238;
+    gap: 20px;
+}
+
+.menu-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 1125px) {
+    .menu-around > img, hr {
+        display: none;
+    }
+    .menu2 {
+        position: sticky;
+    }
+}
+
+.menu-js {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #2A3751;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #BF9246;
+}
+
+.menu-js2 {
+    width: 120px;
+    height: 30px;
+    border: 1px solid #2A3751;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #BF9246;
+}
+
+.material-symbols-outlined {
+  color: #890622;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #BF9246;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+  
+}
+
+.menu-around > hr {
+    width: 400px;
+    height: 1px;
+    border-radius: 50%;
+    background-color: #BF9246;
+}
+
+.page-1png {
+    width: 200px;
+    height: 100px;
+}
+
+.menu-around2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFECC1;
+}
+
+.menu2 {
+    width: 100%;
+    height: 600px;
+    background-color: #890622;
+    color: #BF9246;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    margin-top: 500px;
+}
+
+
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.artisti {
+    width: 100%;
+    height: 529px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://cdn.shopify.com/s/files/1/2388/1747/files/CreminoPageGraphic_english-2.png?v=1602953206);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1097px) {
+    .artisti > p {
+        width: auto;
+    }
+}
+
+.home-form {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    gap: 20px;
+    display: none;
+}
+
+.home-form > input {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.home-form > button {
+    width: 200px;
+    height: 45px;
+    background-color: #890622;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.home-form > button:hover {
+    background-color: #162238;
+}
+
+.artisti-p {
+    width: 900px;
+}
+
+.storia {
+    width: 100%;
+    height: 600px;
+    background-color: #FAF4E8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.storia-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.storia-h1 {
+    width: 700px;
+    color: #BF9246;
+}
+
+.storia-p {
+    width: 800px;
+}
+
+.red-but {
+    width: 150px;
+    height: 45px;
+    background-color: #890622;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.red-but:hover {
+    border: 1px solid #890622;
+    background: none;
+    color: black;
+}
+
+.storia-img {
+    width: 338px;
+    height: 500px;
+    border-radius: 40%;
+}
+
+@media screen and (max-width: 1141px) {
+    .storia-img {
+        display: none;
+    }
+    .storia-column > h1 {
+        width: auto;
+    }
+    .storia-p {
+        width: auto;
+    }
+}
+
+.raccontare {
+    width: 100%;
+    height: 817px;
+    background-image: url(https://www.figma.com/file/bXFnCkUU9HETj7Do3lUZfX/image/219bce9956ca4f8aadebe2af1c5a347ee0237d37?fuid=1209954091980522394);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.raccontare-h1 {
+    width: auto;
+    color: #162238;
+}
+
+@media screen and (max-width: 972) {
+    #raccontare-h2 {
+        width: auto;
+    }
+}
+
+.raccontare-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.classici {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F9F3E7;
+    gap: 200px;
+}
+
+.classici-div {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #162238;
+}
+
+.classici-img {
+    width: 420px;
+    height: 420px;
+}
+
+@media screen and (max-width: 981px) {
+    .classici-img {
+        display: none;
+    }
+    .classici-p {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #classici-p2 {
+        width: auto;
+    }
+}
+
+.classici-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.classici-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classici-p {
+    width: 560px;
+}
+
+.blue-but {
+    width: 150px;
+    height: 45px;
+    background-color: #2A3751;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.blue-but:hover {
+    border: 1px solid #162238;
+    background: none;
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #2A3751;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.footer-column > h1 {
+    color: #BF9246;
+}
+
+.footer-column > b {
+    color: #BF9246
+}
+
+.footer-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-around2 > b {
+    color: #BF9246;
+}
+
+.footer > hr {
+    width: 100%;
+    height: 1px;
+    background-color: #BF9246;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-b {
+    width: 225px;
+}
+
+.footer-around2 {
+    width: auto;
+    display: flex;
+    gap: 5px;
+}
+
+.footer-p {
+    width: 90px;
+}
+
+.footer-p2 {
+    width: 150px;
+}
+
+.footer-p3 {
+    width: 200px;
+}
+
+.footer-around3 {
+    width: 50%;
+    height: 40px;
+    border: 1px solid #890622;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 849px){
+    #none {
+        display: none;
+    }
+    #around {
+        height: 1500px;
+        flex-wrap: wrap;
+    }
+    .footer-column > p {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #around {
+        /* height: 1500px; */
+        flex-wrap: wrap;
+    }
+}
