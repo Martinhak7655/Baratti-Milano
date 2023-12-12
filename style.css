@@ -8,6 +8,25 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (max-width: 512px) {
+    .home-form {
+        width: auto;
+        height: 500px;
+    }
+    .artisti > h1 {
+        padding-left: 30px;
+    }
+    .storia-h1 {
+        padding-left: 30px;
+    }
+    #raccontare-h2 {
+        padding-left: 30px;
+    }
+    .footer > p {
+        padding-left: 30px;
+    }
+}
+
 .menu {
     width: 100%;
     height: 200px;
